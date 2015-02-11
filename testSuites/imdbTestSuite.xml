@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IMDB Top 250 Movies" verbose="1">
+  
+	<test name="Verify Title IMDB Top 250 Movies page and Save the data into database" preserve-order="true">
+		<classes>			
+			<class name="com.FetchTopData" /> 				
+		</classes>
+	</test>
+  
+</suite>

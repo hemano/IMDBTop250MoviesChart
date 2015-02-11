@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IMDB Top 250 Movies]">
+  <test name="Verify Title IMDB Top 250 Movies page and Save the data into database(failed)">
+    <classes>
+      <class name="com.FetchTopData">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+          <include name="saveAndPrintMoviesDetails"/>
+          <include name="getFirst250MoviesFromIMDB"/>
+        </methods>
+      </class> <!-- com.FetchTopData -->
+    </classes>
+  </test> <!-- Verify Title IMDB Top 250 Movies page and Save the data into database(failed) -->
+</suite> <!-- Failed suite [IMDB Top 250 Movies] -->
