@@ -28,7 +28,7 @@ public class FetchTopData extends AppBaseClass {
 	objTop250Page = new Top250PageUIDs(getDriver());
 	
 	//Expected Title
-	String expTitle = "IMDb Top 250 - IMDb1";
+	String expTitle = "IMDb Top 250 - IMDb";
 	
 		
 	//Navigate to Top250 Movies page	

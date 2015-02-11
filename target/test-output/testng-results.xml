@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="IMDB Top 250 Movies" duration-ms="64251" started-at="2015-02-11T15:19:47Z" finished-at="2015-02-11T15:20:51Z">
+  <suite name="IMDB Top 250 Movies" duration-ms="135319" started-at="2015-02-11T15:43:46Z" finished-at="2015-02-11T15:46:02Z">
     <groups>
     </groups>
-    <test name="Verify Title IMDB Top 250 Movies page and Save the data into database" duration-ms="64251" started-at="2015-02-11T15:19:47Z" finished-at="2015-02-11T15:20:51Z">
+    <test name="Verify Title IMDB Top 250 Movies page and Save the data into database" duration-ms="135319" started-at="2015-02-11T15:43:46Z" finished-at="2015-02-11T15:46:02Z">
       <class name="com.FetchTopData">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.FetchTopData@2f9a13d9]" name="start" is-config="true" duration-ms="41805" started-at="2015-02-11T08:19:47Z" finished-at="2015-02-11T08:20:29Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.FetchTopData@507792fe]" name="start" is-config="true" duration-ms="30288" started-at="2015-02-11T08:43:46Z" finished-at="2015-02-11T08:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="FAIL" signature="getFirst250MoviesFromIMDB()[pri:0, instance:com.FetchTopData@2f9a13d9]" name="getFirst250MoviesFromIMDB" duration-ms="21301" started-at="2015-02-11T08:20:29Z" description="Verify the title of Top 250 chart page" finished-at="2015-02-11T08:20:50Z">
+        <test-method status="FAIL" signature="getFirst250MoviesFromIMDB()[pri:0, instance:com.FetchTopData@507792fe]" name="getFirst250MoviesFromIMDB" duration-ms="102509" started-at="2015-02-11T08:44:17Z" description="Verify the title of Top 250 chart page" finished-at="2015-02-11T08:45:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [IMDb Top 250 - IMDb] but found [IMDb Top 250 - IMDb1]]]>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFirst250MoviesFromIMDB -->
-        <test-method status="SKIP" signature="saveAndPrintMoviesDetails()[pri:0, instance:com.FetchTopData@2f9a13d9]" name="saveAndPrintMoviesDetails" duration-ms="0" started-at="2015-02-11T08:20:50Z" description="dependent on verify title, truncate database, populate database and print the data to console from database" depends-on-methods="com.FetchTopData.getFirst250MoviesFromIMDB" finished-at="2015-02-11T08:20:50Z">
+        <test-method status="SKIP" signature="saveAndPrintMoviesDetails()[pri:0, instance:com.FetchTopData@507792fe]" name="saveAndPrintMoviesDetails" duration-ms="2" started-at="2015-02-11T08:45:59Z" description="dependent on verify title, truncate database, populate database and print the data to console from database" depends-on-methods="com.FetchTopData.getFirst250MoviesFromIMDB" finished-at="2015-02-11T08:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveAndPrintMoviesDetails -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FetchTopData@2f9a13d9]" name="tearDown" is-config="true" duration-ms="1098" started-at="2015-02-11T08:20:50Z" finished-at="2015-02-11T08:20:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FetchTopData@507792fe]" name="tearDown" is-config="true" duration-ms="2455" started-at="2015-02-11T08:45:59Z" finished-at="2015-02-11T08:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
